@@ -456,7 +456,7 @@ def button(update, context):
 def main():
     """Start the bot."""
     # Inicializar el updater con el token del bot y una cola de actualizaciones
-    updater = Updater("6651083680:AAEHQ2u3hkqu94Q8JEFo5Gbs1PUg4o3dP-Q")
+    updater = Updater("YOUR_TOKEN_ID")
 
     # Obtener el despachador para registrar los manejadores
     dispatcher = updater.dispatcher
